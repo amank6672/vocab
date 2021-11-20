@@ -1,0 +1,16 @@
+.Word{
+    padding: 15px 0px;
+    border-bottom: 1px solid grey;
+    cursor: pointer;
+}
+
+.Word .word-name{
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 8px;
+    padding-left: 50px;
+}
+.Word .word-description{
+    padding-left: 50px;
+
+}
