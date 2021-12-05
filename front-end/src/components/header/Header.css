@@ -1,22 +1,33 @@
-.header-wrapper 
-{
+.header-wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.header-wrapper .header{
+.header-wrapper .header {
     color: white;
     padding: 0px 50px;
     font-size: 48px;
 }
 
-.header-wrapper .search-button{
-    color: white;
+.header-wrapper .search-wrapper {
     padding-right: 50px;
-    
 }
 
-.header-wrapper .search-button svg{
+.header-wrapper .search-wrapper .search-button {
+    color: white;
+}
+
+.header-wrapper .search-wrapper .search-box label,
+.header-wrapper .search-wrapper .search-box input{
+    color: white;
+}
+
+.search-box .MuiInputBase-root:before,
+.search-box .MuiInputBase-root:hover{
+    border-color: white;
+}
+
+.header-wrapper .search-wrapper .search-button svg {
     font-size: 48px;
 }
